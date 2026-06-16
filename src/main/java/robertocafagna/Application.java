@@ -116,7 +116,7 @@ public class Application {
 
 
         // uso il try per intercettare l'errore e non crashare il programma.
-        
+
         try {
 
             eventoDAO.getById(11);
