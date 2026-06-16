@@ -4,7 +4,7 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
     <persistence-unit name="u4w3d2pu">
         <!--    lista delle classi -->
-        <class>robertocafagna.entities.EntityTest</class>
+        <class>entities.Evento</class>
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/u4w3d2"/>
             <!--            nome user x acesso al DB-->
